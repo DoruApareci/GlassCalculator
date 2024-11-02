@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:GlassCalculator.ViewModels"
+             x:Class="GlassCalculator.Views.Pages.ClientDataPage"
+             Title="ClientDataPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:ClientDataViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="20">
+        <Label Text="First Name" FontSize="Medium"/>
+        <Entry Text="{Binding FirstName}" Placeholder="Enter first name"/>
+
+        <Label Text="Last Name" FontSize="Medium"/>
+        <Entry Text="{Binding LastName}" Placeholder="Enter last name"/>
+
+        <Label Text="Phone" FontSize="Medium"/>
+        <Entry Text="{Binding Phone}" Placeholder="Enter phone number" Keyboard="Telephone"/>
+
+        <Label Text="Email" FontSize="Medium"/>
+        <Entry Text="{Binding Email}" Placeholder="Enter email" Keyboard="Email"/>
+
+        <Button Text="Submit" Command="{Binding SubmitCommand}"/>
+    </StackLayout>
+</ContentPage>

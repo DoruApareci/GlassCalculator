@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.NavigationDrawer;assembly=Syncfusion.Maui.NavigationDrawer"
+             x:Class="GlassCalculator.MainPage">
+    <syncfusion:SfNavigationDrawer x:Name="SideMenuBar">
+        <syncfusion:SfNavigationDrawer.DrawerSettings>
+            <!--Header-->
+            <syncfusion:DrawerSettings DrawerHeaderHeight="110" DrawerWidth="350">
+                <syncfusion:DrawerSettings.DrawerHeaderView>
+                    <VerticalStackLayout Spacing="5">
+                        <Image Source="logo_full.png" WidthRequest="127" HeightRequest="72" VerticalOptions="Center" />
+                        <Label Text="Glass Calculator" HeightRequest="24" FontSize="18" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                    </VerticalStackLayout>
+                </syncfusion:DrawerSettings.DrawerHeaderView>
+                <!--Content-->
+                <syncfusion:DrawerSettings.DrawerContentView>
+                    <ListView x:Name="listView" ItemsSource="{Binding MenuElements}" ItemSelected="listView_ItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" Padding="10">
+                                        <Image Source="{Binding MenuItemIconString}" WidthRequest="24" HeightRequest="24" />
+                                        <Label Text="{Binding MenuItemName}" VerticalOptions="Center" Margin="10,0,0,0"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </syncfusion:DrawerSettings.DrawerContentView>
+            </syncfusion:DrawerSettings>
+        </syncfusion:SfNavigationDrawer.DrawerSettings>
+        <syncfusion:SfNavigationDrawer.ContentView>
+            <Grid RowDefinitions="Auto, *">
+                <Grid ColumnDefinitions="Auto, *, Auto" BackgroundColor="Azure">
+                    <ImageButton Source="hmbg.png" WidthRequest="35" Padding="5,0" HeightRequest="42" Clicked="ImageButton_Clicked"/>
+                    <Label Text="Glass Calculator" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1"/>
+                </Grid>
+                <ContentView x:Name="MainContent" Grid.Row="1"/>
+            </Grid>
+        </syncfusion:SfNavigationDrawer.ContentView>
+    </syncfusion:SfNavigationDrawer>
+</ContentPage>

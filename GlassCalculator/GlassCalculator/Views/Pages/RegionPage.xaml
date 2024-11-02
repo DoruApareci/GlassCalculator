@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:GlassCalculator.ViewModels"
+             x:Class="GlassCalculator.Views.Pages.RegionPage"
+             Title="RegionPage">
+    <ContentPage.BindingContext>
+        <viewModels:ChoseRegionViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout Padding="10">
+        <Label Text="Select a Region"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <ListView ItemsSource="{Binding Regions}"
+                  SelectedItem="{Binding SelectedRegion, Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name, StringFormat='{0} - {1} km'}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Display selected region details (optional) -->
+        <StackLayout Padding="10">
+            <Label Text="Selected Region:" FontAttributes="Bold"/>
+            <Label Text="{Binding SelectedRegion.Name}" />
+            <Label Text="{Binding SelectedRegion.Distance, StringFormat='Distance: {0} km'}" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

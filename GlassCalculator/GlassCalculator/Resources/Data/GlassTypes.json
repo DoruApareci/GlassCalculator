@@ -1,0 +1,218 @@
+[
+  {
+    "Name": "8 mm Float Standard",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 32.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Float cu găuri",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 34.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Float cu găuri și decupări",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 36.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm ExtraClear Standard",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 65.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm ExtraClear cu găuri",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 67.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm ExtraClear cu găuri și decupări",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 69.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Bronz Standard",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 58.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Bronz cu găuri",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 60.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Bronz cu găuri și decupări",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 62.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Gray Standard",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 58.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Gray cu găuri",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 60.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "8 mm Gray cu găuri și decupări",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 62.0
+    },
+    "Thickness": 8
+  },
+  {
+    "Name": "10 mm Float Standard",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 44.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Float cu găuri",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 46.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Float cu găuri și decupări",
+    "GlassColor": 1,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 48.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm ExtraClear Standard",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 85.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm ExtraClear cu găuri",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 87.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm ExtraClear cu găuri și decupări",
+    "GlassColor": 0,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 89.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Bronz Standard",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 80.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Bronz cu găuri",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 82.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Bronz cu găuri și decupări",
+    "GlassColor": 2,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 84.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Gray Standard",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 0,
+      "Price": 80.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Gray cu găuri",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 1,
+      "Price": 82.0
+    },
+    "Thickness": 10
+  },
+  {
+    "Name": "10 mm Gray cu găuri și decupări",
+    "GlassColor": 3,
+    "Price": {
+      "GlassWorkType": 2,
+      "Price": 84.0
+    },
+    "Thickness": 10
+  }
+]

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlassCalculator", "GlassCalculator\GlassCalculator.csproj", "{822D0333-5CF1-467C-86AE-92EEFD8603DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassRegister", "GlassRegister\GlassRegister.csproj", "{F6784E83-54E8-4E29-9192-1B1AA3B99A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822D0333-5CF1-467C-86AE-92EEFD8603DD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F6784E83-54E8-4E29-9192-1B1AA3B99A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6784E83-54E8-4E29-9192-1B1AA3B99A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6784E83-54E8-4E29-9192-1B1AA3B99A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6784E83-54E8-4E29-9192-1B1AA3B99A52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0C75BD-DA1C-45EE-AA31-8C7A06B9B1A3}
+	EndGlobalSection
+EndGlobal
